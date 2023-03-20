@@ -1,0 +1,82 @@
+:root {
+	--color-blackInk: #27221C;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url("./fonts/Poppins.ttf");
+}
+@font-face {
+	font-family: PoppinsExtraBold;
+	src: url("./fonts/PoppinsExtraBold.ttf");
+}
+@font-face {
+	font-family: PoppinsSemiBold;
+	src: url("./fonts/PoppinsSemiBold.ttf");
+}
+
+	.arrow {
+		height: 30px;
+		transition: 250ms;
+	}
+
+* {
+	border: solid 1px red;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-color: #F4F4EF;
+}
+
+body {
+	height: 100dvh;
+}
+
+
+	.faq {
+
+		border: solid 1px blue;
+		width: 75vw; /* Temporary */
+		margin-left: 5vw;	/* Temporary */
+	
+	}
+
+		.header {
+			font-family: PoppinsExtraBold;
+			font-size: 250px;
+			line-height: 250px;
+			color: var(--color-blackInk);
+
+			margin-bottom: 5dvh;
+		}
+
+			.question-q {
+				font-family: PoppinsSemiBold;
+				font-size: 2rem;
+				text-decoration: underline;
+				color: var(--color-blackInk);
+
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			.question-a {
+				overflow: hidden;
+				transition: 500ms;
+				height: 0px;
+
+
+			}
+
+				.question-a-text {
+					font-family: Poppins;
+					font-size: 25px;
+					
+				}
+
