@@ -1,0 +1,46 @@
+:root {
+	--dark-black: #161617;
+	--off-white-1: #F4F4EF;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url("./fonts/Poppins.ttf");
+}
+@font-face {
+	font-family: PoppinsExtraBold;
+	src: url("./fonts/PoppinsExtraBold.ttf");
+}
+@font-face {
+	font-family: PoppinsSemiBold;
+	src: url("./fonts/PoppinsSemiBold.ttf");
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-color: var(--dark-black);
+}
+
+body {
+	height: 100dvh;
+}
+
+	.header-logo {
+		display: flex;
+		flex-direction: column;
+	}
+
+		.header-logo-image {
+			height: 4rem;
+		}
+
+		.header-logo-text {
+			font-family: PoppinsExtraBold;
+			text-align: center;
+			color: var(--off-white-1);
+			
+		}

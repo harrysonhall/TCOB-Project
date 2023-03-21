@@ -20,9 +20,20 @@
 		transition: 250ms;
 	}
 
-* {
+	hr {
+		border: none;
+		border-top: 2px dotted #707070;
+		opacity: 0.5;
+		/* background-color:  blue; */
+	}
+
+	#question-a-text-seven > a {
+		font-family: PoppinsSemiBold;
+	}
+
+/* * {
 	border: solid 1px red;
-}
+} */
 
 html, body {
 	padding: 0;
@@ -37,27 +48,34 @@ body {
 	height: 100dvh;
 }
 
+ul {
+	list-style: none;
+}
+
 
 	.faq {
-
-		border: solid 1px blue;
+		/* border: solid 1px blue; */
 		width: 75vw; /* Temporary */
-		margin-left: 5vw;	/* Temporary */
-	
+		margin-left: 10vw;	/* Temporary */
 	}
 
 		.header {
 			font-family: PoppinsExtraBold;
-			font-size: 250px;
-			line-height: 250px;
+			font-size: 200px;
+			line-height: 200px;
 			color: var(--color-blackInk);
 
 			margin-bottom: 5dvh;
 		}
 
+		.question {
+			margin-top: 1.25rem;
+			margin-bottom: 1.25rem;
+		}
+
 			.question-q {
 				font-family: PoppinsSemiBold;
-				font-size: 2rem;
+				font-size: 1.5rem;
 				text-decoration: underline;
 				color: var(--color-blackInk);
 
@@ -67,16 +85,20 @@ body {
 			}
 
 			.question-a {
+
 				overflow: hidden;
 				transition: 500ms;
 				height: 0px;
-
 
 			}
 
 				.question-a-text {
 					font-family: Poppins;
-					font-size: 25px;
+					font-size: 1.25rem;
+					line-height: 2.5rem;
 					
 				}
 
+					.bold {
+						font-family: PoppinsSemiBold;
+					}
