@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4704" height="258" viewBox="0 0 4704 258">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="2648" height="258" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="4115" height="258" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="DRINK_-_Animation" data-name="DRINK - Animation" transform="translate(0 -18.892)">
+    <g id="Repeat_Grid_3" data-name="Repeat Grid 3" transform="translate(0 18.892)" clip-path="url(#clip-path)">
+      <g transform="translate(-52 -1230)">
+        <text id="drink" transform="translate(388 1420)" fill="#f4f4ef" font-size="181" font-family="Poppins-ExtraBold, Poppins ExtraBold" font-weight="800" letter-spacing="-0.1em"><tspan x="-252.948" y="0">DRINK</tspan></text>
+      </g>
+      <g transform="translate(974 -1230)">
+        <text id="drink-2" data-name="drink" transform="translate(388 1420)" fill="#f4f4ef" font-size="181" font-family="Poppins-ExtraBold, Poppins ExtraBold" font-weight="800" letter-spacing="-0.1em"><tspan x="-252.948" y="0">DRINK</tspan></text>
+      </g>
+      <g transform="translate(2000 -1230)">
+        <text id="drink-3" data-name="drink" transform="translate(388 1420)" fill="#f4f4ef" font-size="181" font-family="Poppins-ExtraBold, Poppins ExtraBold" font-weight="800" letter-spacing="-0.1em"><tspan x="-252.948" y="0">DRINK</tspan></text>
+      </g>
+    </g>
+    <g id="Repeat_Grid_4" data-name="Repeat Grid 4" transform="translate(589 18.892)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-804 -1290)">
+        <text id="drink-4" data-name="drink" transform="translate(1063 1482)" fill="none" stroke="#f4f4ef" stroke-width="3" font-size="180" font-family="Poppins-ExtraBold, Poppins ExtraBold" font-weight="800" letter-spacing="-0.09em"><tspan x="-255.15" y="0">DRINK</tspan></text>
+      </g>
+      <g transform="translate(220 -1290)">
+        <text id="drink-5" data-name="drink" transform="translate(1063 1482)" fill="none" stroke="#f4f4ef" stroke-width="3" font-size="180" font-family="Poppins-ExtraBold, Poppins ExtraBold" font-weight="800" letter-spacing="-0.09em"><tspan x="-255.15" y="0">DRINK</tspan></text>
+      </g>
+      <g transform="translate(1244 -1290)">
+        <text id="drink-6" data-name="drink" transform="translate(1063 1482)" fill="none" stroke="#f4f4ef" stroke-width="3" font-size="180" font-family="Poppins-ExtraBold, Poppins ExtraBold" font-weight="800" letter-spacing="-0.09em"><tspan x="-255.15" y="0">DRINK</tspan></text>
+      </g>
+      <g transform="translate(2268 -1290)">
+        <text id="drink-7" data-name="drink" transform="translate(1063 1482)" fill="none" stroke="#f4f4ef" stroke-width="3" font-size="180" font-family="Poppins-ExtraBold, Poppins ExtraBold" font-weight="800" letter-spacing="-0.09em"><tspan x="-255.15" y="0">DRINK</tspan></text>
+      </g>
+      <g transform="translate(3292 -1290)">
+        <text id="drink-8" data-name="drink" transform="translate(1063 1482)" fill="none" stroke="#f4f4ef" stroke-width="3" font-size="180" font-family="Poppins-ExtraBold, Poppins ExtraBold" font-weight="800" letter-spacing="-0.09em"><tspan x="-255.15" y="0">DRINK</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

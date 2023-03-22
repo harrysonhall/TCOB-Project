@@ -1,0 +1,46 @@
+@font-face {
+	font-family: PoppinsExtraBold;
+	src: url("./fonts/PoppinsExtraBold.ttf");
+}
+
+* {
+	border: solid 1px red;
+}
+
+body {
+	width: 100%;
+	height: 100svh;
+	padding: 0;
+	margin: 0;
+}
+
+.marquee {
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+
+.marquee-content {
+	flex-shrink: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+	#svg-test {
+		/* width: 200%; */
+		/* height: 40px; */
+		fill:black;
+	}
+
+	@keyframes scroll{
+		from {
+			transform: translateX(0);
+		}
+		to {
+			transform: translateX(calc(-100% - 0rem));
+		}
+	}
+
+	.scroll {
+		animation: scroll 30s linear infinite;
+	}
