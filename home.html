@@ -6,20 +6,99 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
 	<link href="home.css" rel="stylesheet">
+	<script src="./three.js" defer></script>
 </head>
 <body>
-	<section class="header">
-		<section class="header-logo">
-			<img class="header-logo-image" src="./icons/tcob-logo.svg">
-			<div class="header-logo-text">THE CRAFT OF BREWING</div>
+	
+	<section class="header-logo">
+		<img class="header-logo-image" src="./icons/tcob-logo.svg">
+		<div class="header-logo-text">THE CRAFT OF BREWING</div>
+	</section>
+
+	<hr class="header-hr" />
+	
+	<section class="header-naviagation">
+		<a>HOME</a>
+		<a>ABOUT US</a>
+		<a>MENUS</a>
+		<a>BREW YOUR OWN BEER</a>
+		<a>HOME BREWING SUPPLIES</a>
+		<a>APPAREL & MERCH</a>
+		<a>FAQS</a>
+	</section>
+
+
+
+
+	<main>
+		<section class="background">
+			<section class="drink">
+				<canvas id="webgl"></canvas>
+			</section>
+		</section>
+	</main>
+	
+
+
+
+	<section class="footer">
+
+		<section class="footer-logos">
+			<div class="footer-logos-tcob">
+				<img class="footer-logos-tcob-logo" src="./icons/tcob-logo.svg">
+				<a>THE CRAFT OF BREWING</a>
+			</div>
+			<div class="footer-logos-brewEremblems">
+				<img src="./icons/brewers-association-certified-logo.svg">
+				<img src="./icons/brewers-association-logo.svg">
+			</div>
 		</section>
 
-		<hr>
-
-		<section class="header-nav">
-
+		<section class="footer-ourHours">
+			<p>OUR HOURS</p>
+			<div class="footer-ourHours-wrapper">
+				<div class="footer-ourHours-days">
+					<a>Sunday:</a>
+					<a>Monday:</a>
+					<a>Tuesday:</a>
+					<a>Wednesday:</a>
+					<a>Thursday:</a>
+					<a>Friday:</a>
+					<a>Saturday:</a>
+				</div>
+				<div class="footer-ourHours-times">
+					<a>12:00pm to 8:00pm</a>
+					<a>Closed</a>
+					<a>Closed</a>
+					<a>4:00pm to 8:00pm</a>
+					<a>3:00pm to 10:00pm</a>
+					<a>3:00pm to 12:00am</a>
+					<a>12:00pm to 12:00am</a>
+				</div>
+			</div>
 		</section>
+			
+		<section class="footer-community">
+			<p>JOIN OUR COMMUNITY</p>
+			<div class="footer-community-logos">
+				<img src="./icons/instagram-logo.svg">
+				<img src="./icons/twitter-logo.svg">
+				<img src="./icons/facebook-logo.svg">
+				<img src="./icons/footer-arrow.svg">
+			</div>
+			<p class="footer-community-address">
+				<a>21140 Ashburn Crossing Drive,</a>
+				<a>Suite #170, Ashburn, VA 20147</a>
+				<a>(703) 687-3932</a>
+			</p>
+		</section>
+
+		
+
 	</section>
 	
+	<section class="footer-copyright">
+		Copyright © 2021 DET Enterprises, Inc.
+	</section>
 </body>
 </html>

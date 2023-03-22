@@ -16,6 +16,11 @@
 	src: url("./fonts/PoppinsSemiBold.ttf");
 }
 
+@font-face {
+	font-family: Debussy;
+	src: url("./fonts/debussy.ttf")
+}
+
 html, body {
 	padding: 0;
 	margin: 0;
@@ -25,13 +30,15 @@ html {
 	background-color: var(--dark-black);
 }
 
-body {
-	height: 100dvh;
-}
 
+	/* --- Logo: Start --- */
 	.header-logo {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 4rem;
+		padding-bottom: 2rem;
 	}
 
 		.header-logo-image {
@@ -44,3 +51,201 @@ body {
 			color: var(--off-white-1);
 			
 		}
+		/* --- Logo: End --- */
+	
+
+	.header-hr {
+		border: none;
+		border-top: 2px solid var(--off-white-1);
+		width: 975px;
+	}
+
+
+
+	/* Start - Navigation Bar  */
+	.header-naviagation {
+		font-family: PoppinsSemiBold;
+		text-align: center;
+		color: var(--off-white-1);
+
+		position: sticky;
+		top: 20px;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+		.header-naviagation > a {
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}
+		/* End - Navigation Bar   */
+
+
+
+
+
+
+
+
+
+
+	.footer {
+		display: flex;
+		justify-content: center;
+
+		padding: 2rem;
+	}
+
+	.footer > * {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+
+
+		/* Start - Footer Logo*/
+		.footer-logos {
+			display: flex;
+		}
+
+			.footer-logos-tcob-logo {
+				height: 10rem;
+				margin-right: 2rem;
+				margin-bottom: 0.5rem;
+
+				color:aqua;
+			}
+
+			.footer-logos-tcob > a {
+				font-family: PoppinsExtraBold;
+				font-size: 1.5rem;
+				line-height: 1.5rem;
+				color: var(--off-white-1);
+
+				display: block;
+			}
+
+			.footer-logos-brewEremblems {
+				display: flex;
+				flex-direction: column;
+				
+				width: 3rem;
+			}
+
+				.footer-logos-brewEremblems > img:nth-child(1) {
+					margin-top: 2rem;
+				}
+
+				.footer-logos-brewEremblems > img:nth-child(2) {
+					margin-top: 1rem;
+				}
+				/* End - Footer Logo*/
+
+			
+				
+
+		/* Start - Footer Our Hours */
+		.footer-ourHours {
+			padding-top: 2rem;
+		}
+
+			.footer-ourHours > p:nth-child(1) {
+				font-family: PoppinsExtraBold;
+				font-size: 2.5rem;
+				line-height: 3rem;
+				text-align: center;
+				color: var(--off-white-1);
+
+				margin: 0;
+			}
+
+			.footer-ourHours-wrapper {
+				display: flex;
+				justify-content: center;
+			}
+
+				.footer-ourHours-days {
+					text-align: end;
+					margin-right: 1rem;
+				}
+
+				.footer-ourHours-days, .footer-ourHours-times {
+					font-family: Poppins;
+					font-size: 0.75rem;
+					color: var(--off-white-1);
+					white-space: nowrap;
+
+					display: flex;
+					flex-direction: column;
+				}
+			/* End - Footer Our Hours */
+
+
+
+
+		/* Start - Footer Community */
+		.footer-community {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			padding-top: 2rem;
+		}
+
+			.footer-community > p:nth-child(1) {
+				font-family: PoppinsExtraBold;
+				font-size: 2.5rem;
+				text-align: center;
+				line-height: 3rem;
+				color: var(--off-white-1);
+
+				margin: 0;
+
+			}
+
+			.footer-community-logos {
+				position: relative;
+				margin-top: 2rem;
+				margin-bottom: 1rem;
+			}
+
+				.footer-community-logos > img {
+					height: 3rem;
+				}
+
+				.footer-community-logos > img:nth-child(2) {
+					margin-right: 1.5rem;
+					margin-left: 1.5rem;
+				}
+
+				.footer-community-logos > img:nth-child(4) {
+					transform: rotate(-76deg);
+					height: 4rem;
+					position: absolute; 
+					right: -6rem;
+					top: -2rem;
+				}
+
+			.footer-community-address {
+				font-family: Poppins;
+				font-size: 0.75rem;
+				color: var(--off-white-1);
+
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+				/* End - Footer Community */
+
+
+	.footer-copyright {
+		font-family: Poppins;
+		font-size: 0.75rem;
+		color: var(--off-white-1);
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}

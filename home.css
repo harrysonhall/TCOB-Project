@@ -4,3 +4,24 @@
 	border: solid red 1px;
 }
 
+.header-naviagation > a:nth-child(1) {
+	font-family: PoppinsExtraBold
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	padding: 3rem;
+}
+
+	.background {
+		height: 100dvh;
+		width: 100%;
+		background: linear-gradient(#5F99CD, #C3C0C5);
+		border-radius: 40px;
+	}
+
+			#webgl {
+				width: 100%;
+			}
+
