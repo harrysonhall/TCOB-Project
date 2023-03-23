@@ -1,0 +1,158 @@
+@import "./global.css";
+
+
+
+	.header-logo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		margin-bottom: 1.5rem;
+	}
+
+		.header-logo:hover {
+			cursor: pointer;
+		}
+
+	.header-logo-image {
+		height: 4rem;
+	}
+
+	.header-logo-text {
+		font-family: PoppinsExtraBold;
+		text-align: center;
+		color: var(--off-white-1);
+		
+		white-space: nowrap;
+	}
+
+	.header-hr {
+		border: none;
+		border-top: 2px solid var(--off-white-1);
+		
+		min-width: 800px;
+		width: 100%;
+		max-width: 1000px;
+	}
+
+	.header-naviagation {
+		font-family: PoppinsSemiBold;
+		text-align: center;
+		color: var(--off-white-1);
+
+		display: flex;
+		justify-content: space-between;
+
+		position: sticky;
+		top: 20px;
+		margin-top: 0.5rem;
+		margin-bottom: 1rem;
+	
+		min-width: 800px;
+		width: 100%;
+		max-width: 1000px;
+	}
+	
+	.header-navigation-menu {
+		display: none;
+	}
+
+
+
+
+
+
+@media (max-width: 910px) {
+
+	.header-logo-image {
+		position: fixed;
+		left: 4rem;
+		top: 2rem;
+
+		width: 5rem;
+	}
+
+	.header-logo-text {
+		display: none;
+	}
+
+	.header-hr {
+		display: none;
+	}
+
+	.header-naviagation {
+		font-family: PoppinsSemiBold;
+		text-align: center;
+		color: var(--off-white-1);
+		border: solid blue 1px;
+
+		position: absolute;
+		display: none;
+	}
+
+	.header-navigation-menu {
+		background-color: #CDFB52;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+
+		position: fixed;
+		right: 4rem;
+		top: 2.5rem;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+		.header-navigation-menu > div {
+			width: 18px;
+			height: 3px;
+			background-color: black;
+		}
+
+		.header-navigation-menu > div:nth-child(2) {
+			margin-top: 2px;
+			margin-bottom: 2px;
+		}
+}
+	
+
+
+
+
+@media (max-width: 420px) {
+
+		/* --- This is a special case class that is additionally added
+	if the window.width is 420px or under. It makes the logo and hamburger
+	menu a little bit more spaced out because it looks better --- */
+	.header-logo-image {
+		position: fixed;
+		left: 2rem;			/* --- This is the only thing being changed --- */
+		top: 2rem;
+
+		width: 5rem;
+	}
+
+	/* --- This is a special case class that is additionally added
+	if the window.width is 420px or under. It makes the logo and hamburger
+	menu a little bit more spaced out because it looks better --- */
+	.header-navigation-menu {
+		background-color: #CDFB52;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+
+		position: fixed;
+		right: 2rem;		/* --- This is the only thing being changed --- */
+		top: 2.5rem;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

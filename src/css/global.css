@@ -5,20 +5,20 @@
 
 @font-face {
 	font-family: Poppins;
-	src: url("./fonts/Poppins.ttf");
+	src: url("../fonts/Poppins.ttf");
 }
 @font-face {
 	font-family: PoppinsExtraBold;
-	src: url("./fonts/PoppinsExtraBold.ttf");
+	src: url("../fonts/PoppinsExtraBold.ttf");
 }
 @font-face {
 	font-family: PoppinsSemiBold;
-	src: url("./fonts/PoppinsSemiBold.ttf");
+	src: url("../fonts/PoppinsSemiBold.ttf");
 }
 
 @font-face {
 	font-family: Debussy;
-	src: url("./fonts/debussy.ttf")
+	src: url("../fonts/debussy.ttf")
 }
 
 html, body {
@@ -35,5 +35,5 @@ body {
 	flex-direction: column;
 	align-items: center;
 
-	padding: 3rem;
+	padding: 2rem;
 }

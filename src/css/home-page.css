@@ -1,8 +1,8 @@
 @import url("./global.css");
 
-* {
+/* * {
 	border: solid red 1px;
-}
+} */
 
 .header-naviagation > a:nth-child(1) {
 	font-family: PoppinsExtraBold
@@ -16,14 +16,14 @@ main {
 }
 
 	.background {
-		height: 100dvh;
+		height: 100svh;
 		width: 100%;
 		background: linear-gradient(#5F99CD, #C3C0C5);
 		border-radius: 40px;
 	}
 		.drink {
 			width: 100%;
-			height: 100dvh;
+			height: 100svh;
 		}
 
 			#webgl {

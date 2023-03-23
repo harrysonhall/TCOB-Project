@@ -1,0 +1,294 @@
+@import "./global.css";
+	
+	.footer {
+		display: flex;
+		align-items: flex-start;
+		overflow: hidden;
+
+		max-width: 1250px;
+		width: 100%;
+		justify-content: space-evenly;
+		white-space: nowrap;
+
+		padding-top: 2rem;
+	}
+
+	.footer > * {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+
+	.footer-logos {
+		display: flex;
+		height: 10rem;
+	}
+
+	.footer-logos-svg {
+		max-height: 10rem;
+		height: 10rem;
+	}
+
+		
+	.footer-ourHours {
+		/* padding-top: 2rem; */
+
+		font-family: PoppinsExtraBold;
+		font-size: 2.5rem;
+		line-height: 3rem;
+		text-align: center;
+		color: var(--off-white-1);
+	}
+
+
+	.footer-ourHours-wrapper {
+		display: flex;
+		justify-content: center;
+
+		margin-top: 1rem;
+	}
+
+		.footer-ourHours-days {
+			align-items: flex-end;
+			margin-right: 1rem;
+		}
+
+		.footer-ourHours-times {
+			align-items: flex-start;
+		}
+
+	.footer-ourHours-days, .footer-ourHours-times {
+		font-family: Poppins;
+		font-size: 0.75rem;
+		line-height: 1rem;
+		color: var(--off-white-1);
+		white-space: nowrap;
+
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.footer-community {
+		font-family: PoppinsExtraBold;
+		font-size: 2.5rem;
+		text-align: center;
+		line-height: 3rem;
+		color: var(--off-white-1);
+
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;	
+
+		position: relative;
+	}
+
+	.footer-community-br {
+		display: none;
+	}
+	
+
+
+	.footer-community-socials {
+		height: 2.5rem;
+
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+
+	.footer-community-arrow {
+		height: 3rem;
+
+		position: absolute;
+		top: 2rem;
+		right: 4.5rem;
+	}
+
+
+	.footer-community-address {
+		font-family: Poppins;
+		font-size: 0.75rem;
+		line-height: 1rem;
+		color: var(--off-white-1);
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.footer-copyright {
+		font-family: Poppins;
+		font-size: 0.75rem;
+		color: var(--off-white-1);
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+
+
+
+@media (max-width: 1100px) {
+
+		.footer {
+			display: flex;
+			align-items: flex-start;
+			overflow: hidden;
+	
+			max-width: 1250px;
+			width: 100%;
+			justify-content: space-evenly;
+			white-space: nowrap;
+	
+			padding-top: 2rem;
+		}
+
+		.footer-logos-svg {
+			min-height: 7rem;
+			height: 7rem;
+			max-height: 7rem;
+		}
+
+		.footer-ourHours {
+			font-family: PoppinsExtraBold;
+			font-size: 2rem;
+			line-height: 3rem;
+			text-align: center;
+			color: var(--off-white-1);
+
+			margin-right: 1rem;
+    		margin-left: 1rem;
+		}
+
+		.footer-ourHours-wrapper {
+			display: flex;
+			justify-content: center;
+
+			margin-top: 0.5rem;
+		}
+		
+		.footer-community {
+			font-family: PoppinsExtraBold;
+			font-size: 2rem;
+			text-align: center;
+			line-height: 2rem;
+			color: var(--off-white-1);
+	
+	
+			display: flex;
+			flex-direction: column;
+			align-items: center;	
+	
+			position: relative;
+		}
+	
+		.footer-community-socials {
+			height: 2rem;
+
+			margin-top: 1rem;
+			margin-bottom: 0.5rem;
+		}
+	
+		.footer-community-arrow {
+			height: 3rem;
+	
+			position: absolute;
+			top: 1.7rem;
+			right: 3.5rem;
+		}
+}
+
+@media (max-width: 910px) {
+
+	.footer {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		overflow: hidden;
+
+		max-width: 1250px;
+		width: 100%;
+		justify-content: space-evenly;
+		white-space: nowrap;
+
+		padding-top: 2rem;
+	}
+
+	.footer-community-arrow {
+		height: 3rem;
+		position: absolute;
+		top: 3.7rem;
+		right: -1rem;
+	}
+
+	.footer-community-br {
+		display: block;
+	}
+}
+
+@media (max-width: 749px) {
+
+	.footer-community-br {
+		display: none;
+	}
+
+	.footer-community {
+		font-family: PoppinsExtraBold;
+		font-size: 2rem;
+		text-align: center;
+		line-height: 2.5rem;
+		color: var(--off-white-1);
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		position: relative;
+		margin-top: 2rem;
+	}
+
+	.footer-community-arrow {
+		height: 3rem;
+		position: absolute;
+		top: 2rem;
+		right: 3.2rem;
+	}
+}
+
+@media (max-width: 535px) {
+
+	.footer-community {
+		font-family: PoppinsExtraBold;
+		font-size: 2rem;
+		text-align: center;
+		line-height: 2.5rem;
+		color: var(--off-white-1);
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		position: relative;
+	}
+}
+
+@media (max-width: 475px) {
+	
+	.footer-community-br {
+		display: block;
+	} 
+
+	.footer-community-arrow {
+		height: 3rem;
+		position: absolute;
+		top: 4.5rem;
+		right: -1.5rem;
+	}
+}
