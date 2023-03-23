@@ -25,20 +25,12 @@ module.exports = {
         }),
         new MiniCSSExtractPlugin()
     ],
-    module:
-    {
-        rules:
-        [
-            // HTML
-            {
-                test: /\.(html)$/,
-                use:
-                [
-                    'html-loader'
-                ]
-            },
+    module: {
+        rules:[{
+            test: /\.(html)$/,
+            use: ['html-loader']},
 
-            // JS
+    
             {
                 test: /\.js$/,
                 exclude: /node_modules/,

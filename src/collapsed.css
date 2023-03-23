@@ -1,0 +1,111 @@
+@import "./global.css";
+
+
+
+
+
+
+
+
+	/* --- Start - Header Logo --- */
+	.header-logo-image-collapsed {
+		position: fixed;
+		left: 4rem;
+		top: 2rem;
+
+		width: 5rem;
+	}
+	/* --- This is a special case class that is additionally added
+	if the window.width is 420px or under. It makes the logo and hamburger
+	menu a little bit more spaced out because it looks better --- */
+	.header-logo-image-collapsed-420px-and-under {
+		left: 2rem;
+	}
+	.header-logo-text-collapsed {
+		display: none;
+	}
+	/* --- End - Header Logo --- */
+	
+
+
+
+
+
+
+
+
+		
+	/* --- Start - Header HR --- */
+	.header-hr-collapsed {
+		display: none;
+	}
+	/* --- End - Header HR --- */
+
+
+
+
+
+
+
+
+
+
+
+	/* --- Start - Header Navigation Bar  --- */
+	.header-naviagation-collapsed {
+		font-family: PoppinsSemiBold;
+		text-align: center;
+		color: var(--off-white-1);
+		border: solid blue 1px;
+
+		position: absolute;
+		display: none;
+	}
+	/* --- End - Header Navigation Bar --- */
+
+
+
+
+
+
+
+
+
+
+
+
+	/* --- Start - Header Hamburger Menu --- */
+	.header-navigation-menu-collapsed {
+		background-color: #CDFB52;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+
+		position: fixed;
+		right: 4rem;
+		top: 2rem;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* --- This is a special case class that is additionally added
+	if the window.width is 420px or under. It makes the logo and hamburger
+	menu a little bit more spaced out because it looks better --- */
+	.header-navigation-menu-collapsed-420px-and-under {
+		right: 2rem;
+	}
+
+		.header-navigation-menu-collapsed > div {
+			width: 18px;
+			height: 3px;
+			background-color: black;
+		}
+
+		.header-navigation-menu-collapsed > div:nth-child(2) {
+			margin-top: 2px;
+			margin-bottom: 2px;
+		}
+		/* --- End - Header Hamburger Menu --- */
