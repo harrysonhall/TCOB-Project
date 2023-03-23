@@ -1,74 +1,65 @@
 import './css/home-page.css';
 import './css/header.css';
 import './css/footer.css';
+import * as THREE from 'three';
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
 // const log = console.log
 
-// const header_logo 				= document.querySelector('#header-logo');
-// const header_logo_image 		= document.querySelector('#header-logo-image');
-// const header_logo_text 			= document.querySelector('#header-logo-text');
-// const header_hr 				= document.querySelector('#header-hr');
-// const header_navigation 		= document.querySelector('#header-navigation');
-// const header_navigation_menu 	= document.querySelector('#header-navigation-menu');
-
-// addEventListener("DOMContentLoaded", (event) => {
-// 	log('loaded')
-// 	log(window.innerHeight, window.innerWidth)
 
 
-// 	if(window.innerWidth <= 910) {
-	
-// 		console.log(window.innerWidth);
+// const canvas = document.querySelector('#webgl');
+// const camera = new THREE.PerspectiveCamera(75, canvas.clientWidth / canvas.clientHeight);
+// const scene = new THREE.Scene();
+// const renderer = new THREE.WebGL1Renderer({ canvas: canvas, antialias: true });
+// // const controls = new OrbitControls(camera, canvas);
+// console.log(canvas)
 
-// 		collapsed();
-// 	} else {
-
-// 		uncollapsed();
-// 	}
-// })
+// const drink_section = document.querySelector('#drink-section');
 
 
 
-// window.addEventListener('resize', (e) => {
+// // Window Sizes
+// const sizes = {
+// 	width: drink_section.clientWidth,
+// 	height: drink_section.clientHeight,
+// };
 
-// 	if(window.innerWidth <= 1110) {
-// 		console.log(window.innerWidth)
-// 	}
+// // // Renderer
+// renderer.outputEncoding = THREE.sRGBEncoding
+// renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+// renderer.setSize(sizes.width, sizes.height);
+// renderer.render(scene, camera);
+
+// // // Camera & Orbit Controls
+// // controls.enableDamping = true;
+// camera.position.set(2,2,2)
+// 	scene.add(camera);
+
+// const geometry = new THREE.BoxGeometry( 1, 1, 1 );
+// const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+// const cube = new THREE.Mesh( geometry, material );
+// scene.add( cube );
+
+// 	window.addEventListener("resize", () => {
+// 		sizes.width = drink_section.clientWidth;
+// 		sizes.height = drink_section.clientHeight;
+
+// 		camera.aspect = sizes.width / sizes.height;
+// 		camera.updateProjectionMatrix();
+
+// 		renderer.setSize(sizes.width, sizes.height);
+// 		renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+// 	});
 
 
-// 	if(window.innerWidth <= 910) {
-	
-// 		log('resize', window.innerWidth);
 
-// 		collapsed();
-// 	}
+// const tick = (time) => {
+		
+// 		renderer.render(scene, camera);
+// 		// controls.update();
+// 		window.requestAnimationFrame(tick);
+			
+// }
 
-// 	else {
-
-// 		uncollapsed();
-// 	}
-	
-// })
-
-// 		function collapsed() {
-// 			header_logo.classList.value = "header-logo-collapsed";
-// 			header_logo_image.classList.value = "header-logo-image-collapsed";
-// 			header_logo_text.classList.value = "header-logo-text-collapsed";
-// 			header_hr.classList.value = "header-hr-collapsed";
-// 			header_navigation.classList.value = "header-naviagation-collapsed";
-// 			header_navigation_menu.classList.value = "header-navigation-menu-collapsed";
-// 			if(window.innerWidth <= 420){
-// 				log('under 420')
-// 				header_logo_image.classList.add('header-logo-image-collapsed-420px-and-under');
-// 				header_navigation_menu.classList.add('header-navigation-menu-collapsed-420px-and-under');
-// 			}
-// 		}
-
-// 		function uncollapsed(){
-// 			header_logo.classList.value = "header-logo-uncollapsed";
-// 			header_logo_image.classList.value = "header-logo-image-uncollapsed";
-// 			header_logo_text.classList.value = "header-logo-text-uncollapsed";
-// 			header_hr.classList.value = "header-hr-uncollapsed";
-// 			header_navigation.classList.value = "header-naviagation-uncollapsed";
-// 			header_navigation_menu.classList.value = "header-navigation-menu-uncollapsed";
-// 		}
+// tick();

@@ -21,6 +21,16 @@
 	src: url("../fonts/debussy.ttf")
 }
 
+@font-face {
+	font-family: FKScreamerSemiSlanted;
+	src: url("../fonts/FKScreamerSemiSlanted.otf");
+}
+
+@font-face {
+	font-family: FKScreamerUpright;
+	src: url("../fonts/FKScreamerUpright.otf");
+}
+
 html, body {
 	padding: 0;
 	margin: 0;
@@ -36,4 +46,8 @@ body {
 	align-items: center;
 
 	padding: 2rem;
+}
+
+#insta:hover, #facebook:hover, #twitter:hover {
+	cursor: pointer;
 }
