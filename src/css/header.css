@@ -34,7 +34,7 @@
 		
 		min-width: 800px;
 		width: 100%;
-		max-width: 1000px;
+		max-width: 935px;
 	}
 
 	.header-naviagation {
@@ -43,7 +43,7 @@
 		color: var(--off-white-1);
 
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
 
 		position: sticky;
 		z-index: 10;
@@ -65,7 +65,7 @@
 
 
 
-@media (max-width: 910px) {
+@media (max-width: 950px) {
 
 	.header-logo{
 		position: absolute;

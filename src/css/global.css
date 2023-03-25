@@ -7,10 +7,12 @@
 	font-family: Poppins;
 	src: url("../fonts/Poppins.ttf");
 }
+
 @font-face {
 	font-family: PoppinsExtraBold;
 	src: url("../fonts/PoppinsExtraBold.ttf");
 }
+
 @font-face {
 	font-family: PoppinsSemiBold;
 	src: url("../fonts/PoppinsSemiBold.ttf");
@@ -30,6 +32,22 @@
 	font-family: FKScreamerUpright;
 	src: url("../fonts/FKScreamerUpright.otf");
 }
+
+@font-face {
+	font-family: ThunderBold;
+	src: url("../fonts/Thunder-BoldLC.ttf");
+}
+
+@font-face {
+	font-family: ThunderExtraBold;
+	src: url("../fonts/Thunder-ExtraBoldLC.ttf");
+}
+
+@font-face {
+	font-family: ThunderBlack;
+	src: url("../fonts/Thunder-BlackLC.ttf");
+}
+
 
 html, body {
 	padding: 0;
